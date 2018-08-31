@@ -36,6 +36,7 @@ file 'Gemfile', <<~GEMFILE_CONTENT
     gem 'rubocop'
     gem 'rubocop-rspec'
     gem 'web-console', '>= 3.3.0'
+    gem 'sqlite3'
   end
 
   group :test do

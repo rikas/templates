@@ -4,7 +4,6 @@ AllCops:
   TargetRubyVersion: 2.5
   Exclude:
     - 'db/**/*'
-    - 'config/initializers/*'
 
 # Don't force top level comments in every class
 Style/Documentation:
