@@ -171,7 +171,10 @@ file 'spec/rails_helper.rb', <<~HELPER
   end
 HELPER
 
-run 'touch .env'
+file '.env', <<~ENV
+  # Insert your credentials here. This file shouldn't be commited to your git repository.
+ENV
+
 run 'curl -L https://raw.githubusercontent.com/rikas/templates/master/.rubocop.yml > .rubocop.yml'
 
 ########################################
